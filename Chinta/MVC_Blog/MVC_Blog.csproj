@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{636F4526-27C5-4D82-BB16-5162C34BEC02}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MVC_Blog</RootNamespace>
+    <AssemblyName>MVC_Blog</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44332</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>4.3</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AuthorController.cs" />
+    <Compile Include="Controllers\AuthorPanelController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminTheme\css\css.css" />
+    <Content Include="AdminTheme\dist\css\adminlte.css" />
+    <Content Include="AdminTheme\dist\css\adminlte.min.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.components.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.components.min.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.core.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.core.min.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.extra-components.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.extra-components.min.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.pages.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.pages.min.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.plugins.css" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.plugins.min.css" />
+    <Content Include="AdminTheme\dist\img\user1-128x128.png" />
+    <Content Include="AdminTheme\dist\js\adminlte.js" />
+    <Content Include="AdminTheme\dist\js\adminlte.min.js" />
+    <Content Include="AdminTheme\dist\js\demo.js" />
+    <Content Include="AdminTheme\dist\js\pages\dashboard.js" />
+    <Content Include="AdminTheme\dist\js\pages\dashboard2.js" />
+    <Content Include="AdminTheme\dist\js\pages\dashboard3.js" />
+    <Content Include="AdminTheme\docs\404.html" />
+    <Content Include="AdminTheme\docs\assets\css\adminlte.css" />
+    <Content Include="AdminTheme\docs\assets\css\adminlte.min.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.components.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.components.min.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.core.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.core.min.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.extra-components.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.extra-components.min.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.pages.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.pages.min.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.plugins.css" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.plugins.min.css" />
+    <Content Include="AdminTheme\docs\assets\css\docs.css" />
+    <Content Include="AdminTheme\docs\assets\css\highlighter.css" />
+    <Content Include="AdminTheme\docs\assets\img\AdminLTELogo.png" />
+    <Content Include="AdminTheme\docs\assets\img\logo-xl.png" />
+    <Content Include="AdminTheme\docs\assets\img\logo-xs.png" />
+    <Content Include="AdminTheme\docs\assets\img\user1-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\img\user3-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\img\user4-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\img\user5-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\img\user6-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\img\user7-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\img\user8-128x128.jpg" />
+    <Content Include="AdminTheme\docs\assets\js\adminlte.js" />
+    <Content Include="AdminTheme\docs\assets\js\adminlte.min.js" />
+    <Content Include="AdminTheme\docs\assets\js\demo.js" />
+    <Content Include="AdminTheme\docs\assets\js\pages\dashboard.js" />
+    <Content Include="AdminTheme\docs\assets\js\pages\dashboard2.js" />
+    <Content Include="AdminTheme\docs\assets\js\pages\dashboard3.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\all.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\all.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\brands.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\brands.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\fontawesome.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\fontawesome.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\regular.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\regular.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\solid.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\solid.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\svg-with-js.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\svg-with-js.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\v4-shims.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\css\v4-shims.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\core.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\jquery.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\jquery.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\jquery.slim.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\jquery.slim.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\overlayScrollbars\css\OverlayScrollbars.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\overlayScrollbars\css\OverlayScrollbars.min.css" />
+    <Content Include="AdminTheme\docs\assets\plugins\overlayScrollbars\js\jquery.overlayScrollbars.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\overlayScrollbars\js\jquery.overlayScrollbars.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\overlayScrollbars\js\OverlayScrollbars.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\overlayScrollbars\js\OverlayScrollbars.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper-utils.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper-utils.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper-utils.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper-utils.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper-utils.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper-utils.min.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper.js" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper.min.js" />
+    <Content Include="AdminTheme\docs\_includes\foot.html" />
+    <Content Include="AdminTheme\docs\_includes\footer.html" />
+    <Content Include="AdminTheme\docs\_includes\head.html" />
+    <Content Include="AdminTheme\docs\_includes\navbar.html" />
+    <Content Include="AdminTheme\docs\_includes\sidebar.html" />
+    <Content Include="AdminTheme\docs\_layouts\default.html" />
+    <Content Include="AdminTheme\docs\_layouts\home.html" />
+    <Content Include="AdminTheme\docs\_layouts\page.html" />
+    <Content Include="AdminTheme\docs\_layouts\post.html" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.js" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\all.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\all.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\brands.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\brands.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\fontawesome.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\fontawesome.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\regular.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\regular.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\solid.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\solid.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\svg-with-js.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\svg-with-js.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\v4-shims.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\css\v4-shims.min.css" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <Content Include="AdminTheme\plugins\jquery\core.js" />
+    <Content Include="AdminTheme\plugins\jquery\jquery.js" />
+    <Content Include="AdminTheme\plugins\jquery\jquery.min.js" />
+    <Content Include="AdminTheme\plugins\jquery\jquery.slim.js" />
+    <Content Include="AdminTheme\plugins\jquery\jquery.slim.min.js" />
+    <Content Include="BlogTheme\about.html" />
+    <Content Include="BlogTheme\category.html" />
+    <Content Include="BlogTheme\contact.html" />
+    <Content Include="BlogTheme\css\aos.css" />
+    <Content Include="BlogTheme\css\bootstrap-datepicker.css" />
+    <Content Include="BlogTheme\css\bootstrap.min.css" />
+    <Content Include="BlogTheme\css\bootstrap\bootstrap-grid.css" />
+    <Content Include="BlogTheme\css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="BlogTheme\css\bootstrap\bootstrap.css" />
+    <Content Include="BlogTheme\css\bootstrap\bootstrap.min.css" />
+    <Content Include="BlogTheme\css\jquery-ui.css" />
+    <Content Include="BlogTheme\css\magnific-popup.css" />
+    <Content Include="BlogTheme\css\mediaelementplayer.css" />
+    <Content Include="BlogTheme\css\owl.carousel.min.css" />
+    <Content Include="BlogTheme\css\owl.theme.default.min.css" />
+    <Content Include="BlogTheme\css\style.css" />
+    <Content Include="BlogTheme\fonts\flaticon\backup.txt" />
+    <Content Include="BlogTheme\fonts\flaticon\font\flaticon.css" />
+    <Content Include="BlogTheme\fonts\flaticon\font\flaticon.html" />
+    <Content Include="BlogTheme\fonts\flaticon\font\Flaticon.svg" />
+    <Content Include="BlogTheme\fonts\flaticon\font\_flaticon.css" />
+    <Content Include="BlogTheme\fonts\icomoon\demo-files\demo.css" />
+    <Content Include="BlogTheme\fonts\icomoon\demo-files\demo.js" />
+    <Content Include="BlogTheme\fonts\icomoon\demo.html" />
+    <Content Include="BlogTheme\fonts\icomoon\fonts\icomoon.svg" />
+    <Content Include="BlogTheme\fonts\icomoon\Read Me.txt" />
+    <Content Include="BlogTheme\fonts\icomoon\style.css" />
+    <Content Include="BlogTheme\images\aboutus.png" />
+    <Content Include="BlogTheme\images\cebupacific-booking.jpg" />
+    <Content Include="BlogTheme\images\contactbg.png" />
+    <Content Include="BlogTheme\images\hero_1.jpg" />
+    <Content Include="BlogTheme\images\img_1.jpg" />
+    <Content Include="BlogTheme\images\img_2.jpg" />
+    <Content Include="BlogTheme\images\img_3.jpg" />
+    <Content Include="BlogTheme\images\img_4.jpg" />
+    <Content Include="BlogTheme\images\img_v_1.jpg" />
+    <Content Include="BlogTheme\images\img_v_2.jpg" />
+    <Content Include="BlogTheme\images\person_1.jpg" />
+    <Content Include="BlogTheme\images\person_1.png" />
+    <Content Include="BlogTheme\images\person_2.jpg" />
+    <Content Include="BlogTheme\images\person_3.jpg" />
+    <Content Include="BlogTheme\images\person_4.jpg" />
+    <Content Include="BlogTheme\images\person_5.jpg" />
+    <Content Include="BlogTheme\index.html" />
+    <Content Include="BlogTheme\js\aos.js" />
+    <Content Include="BlogTheme\js\bootstrap-datepicker.min.js" />
+    <Content Include="BlogTheme\js\bootstrap.min.js" />
+    <Content Include="BlogTheme\js\jquery-3.3.1.min.js" />
+    <Content Include="BlogTheme\js\jquery-migrate-3.0.1.min.js" />
+    <Content Include="BlogTheme\js\jquery-ui.js" />
+    <Content Include="BlogTheme\js\jquery.countdown.min.js" />
+    <Content Include="BlogTheme\js\jquery.magnific-popup.min.js" />
+    <Content Include="BlogTheme\js\jquery.stellar.min.js" />
+    <Content Include="BlogTheme\js\main.js" />
+    <Content Include="BlogTheme\js\mediaelement-and-player.min.js" />
+    <Content Include="BlogTheme\js\owl.carousel.min.js" />
+    <Content Include="BlogTheme\js\popper.min.js" />
+    <Content Include="BlogTheme\js\slick.min.js" />
+    <Content Include="BlogTheme\single.html" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Error\css\style.css" />
+    <Content Include="Error\index.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="LoginTheme\css\bootstrap.min.css" />
+    <Content Include="LoginTheme\css\bootstrap\mixins\_border-radius.css" />
+    <Content Include="LoginTheme\css\bootstrap\mixins\_reset-text.css" />
+    <Content Include="LoginTheme\css\bootstrap\mixins\_screen-reader.css" />
+    <Content Include="LoginTheme\css\bootstrap\mixins\_text-hide.css" />
+    <Content Include="LoginTheme\css\bootstrap\mixins\_visibility.css" />
+    <Content Include="LoginTheme\css\bootstrap\utilities\_stretched-link.css" />
+    <Content Include="LoginTheme\css\bootstrap\_media.css" />
+    <Content Include="LoginTheme\css\hoverStar.css" />
+    <Content Include="LoginTheme\css\style.css" />
+    <Content Include="LoginTheme\images\bg.jpg" />
+    <Content Include="LoginTheme\index.html" />
+    <Content Include="LoginTheme\js\bootstrap.min.js" />
+    <Content Include="LoginTheme\js\jquery.min.js" />
+    <Content Include="LoginTheme\js\main.js" />
+    <Content Include="LoginTheme\js\popper.js" />
+    <Content Include="LoginTheme\main.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="BlogTheme\.DS_Store" />
+    <Content Include="BlogTheme\css\.DS_Store" />
+    <Content Include="BlogTheme\fonts\.DS_Store" />
+    <Content Include="BlogTheme\fonts\flaticon\font\Flaticon.eot" />
+    <Content Include="BlogTheme\fonts\flaticon\font\Flaticon.ttf" />
+    <Content Include="BlogTheme\fonts\flaticon\font\Flaticon.woff" />
+    <Content Include="BlogTheme\fonts\flaticon\font\Flaticon.woff2" />
+    <Content Include="BlogTheme\fonts\flaticon\font\_flaticon.scss" />
+    <Content Include="BlogTheme\fonts\flaticon\license\license.pdf" />
+    <Content Include="BlogTheme\fonts\icomoon\fonts\icomoon.eot" />
+    <Content Include="BlogTheme\fonts\icomoon\fonts\icomoon.ttf" />
+    <Content Include="BlogTheme\fonts\icomoon\fonts\icomoon.woff" />
+    <Content Include="BlogTheme\fonts\icomoon\selection.json" />
+    <Content Include="BlogTheme\images\.DS_Store" />
+    <Content Include="BlogTheme\prepros-6.config" />
+    <Content Include="BlogTheme\scss\.DS_Store" />
+    <Content Include="BlogTheme\scss\bootstrap\.DS_Store" />
+    <Content Include="BlogTheme\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\bootstrap.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_shadows.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_alert.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_badge.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_button-group.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_buttons.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_card.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_carousel.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_close.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_code.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_dropdown.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_forms.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_functions.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_grid.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_images.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_input-group.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_list-group.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_media.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_mixins.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_modal.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_nav.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_navbar.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_pagination.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_popover.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_print.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_progress.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_reboot.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_root.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_tables.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_tooltip.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_transitions.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_type.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_utilities.scss" />
+    <Content Include="BlogTheme\scss\bootstrap\_variables.scss" />
+    <Content Include="BlogTheme\scss\style.scss" />
+    <Content Include="BlogTheme\scss\_site-base.scss" />
+    <Content Include="BlogTheme\scss\_site-blocks.scss" />
+    <Content Include="BlogTheme\scss\_site-navbar.scss" />
+    <Content Include="AdminTheme\.babelrc" />
+    <Content Include="AdminTheme\.browserslistrc" />
+    <Content Include="AdminTheme\.editorconfig" />
+    <Content Include="AdminTheme\.eslintignore" />
+    <Content Include="AdminTheme\.eslintrc" />
+    <Content Include="AdminTheme\.gitignore" />
+    <Content Include="AdminTheme\.npmignore" />
+    <Content Include="AdminTheme\.travis.yml" />
+    <Content Include="AdminTheme\composer.json" />
+    <Content Include="AdminTheme\dist\css\adminlte.css.map" />
+    <Content Include="AdminTheme\dist\css\adminlte.min.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.components.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.components.min.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.core.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.core.min.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.extra-components.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.extra-components.min.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.pages.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.pages.min.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.plugins.css.map" />
+    <Content Include="AdminTheme\dist\css\alt\adminlte.plugins.min.css.map" />
+    <Content Include="AdminTheme\dist\js\adminlte.js.map" />
+    <Content Include="AdminTheme\dist\js\adminlte.min.js.map" />
+    <Content Include="AdminTheme\docs\.npmignore" />
+    <Content Include="AdminTheme\docs\assets\css\adminlte.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\adminlte.min.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.components.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.components.min.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.core.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.core.min.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.extra-components.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.extra-components.min.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.pages.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.pages.min.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.plugins.css.map" />
+    <Content Include="AdminTheme\docs\assets\css\alt\adminlte.plugins.min.css.map" />
+    <Content Include="AdminTheme\docs\assets\js\adminlte.js.map" />
+    <Content Include="AdminTheme\docs\assets\js\adminlte.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-solid-900.woff" />
+    <Content Include="AdminTheme\docs\assets\plugins\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\jquery.min.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\jquery\jquery.slim.min.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper-utils.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper-utils.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\esm\popper.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper-utils.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper-utils.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\popper.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper-utils.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper-utils.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper.js.flow" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\popper.min.js.map" />
+    <Content Include="AdminTheme\docs\assets\plugins\popper\umd\poppper.js.flow" />
+    <Content Include="AdminTheme\docs\browser-support.md" />
+    <Content Include="AdminTheme\docs\components\boxes.md" />
+    <Content Include="AdminTheme\docs\components\cards.md" />
+    <Content Include="AdminTheme\docs\components\control-sidebar.md" />
+    <Content Include="AdminTheme\docs\components\direct-chat.md" />
+    <Content Include="AdminTheme\docs\components\main-header.md" />
+    <Content Include="AdminTheme\docs\components\main-sidebar.md" />
+    <Content Include="AdminTheme\docs\components\miscellaneous.md" />
+    <Content Include="AdminTheme\docs\components\plugins.md" />
+    <Content Include="AdminTheme\docs\components\ribbons.md" />
+    <Content Include="AdminTheme\docs\components\timeline.md" />
+    <Content Include="AdminTheme\docs\dependencies.md" />
+    <Content Include="AdminTheme\docs\faq.md" />
+    <Content Include="AdminTheme\docs\Gemfile" />
+    <Content Include="AdminTheme\docs\implementations.md" />
+    <Content Include="AdminTheme\docs\index.md" />
+    <Content Include="AdminTheme\docs\javascript\card-refresh.md" />
+    <Content Include="AdminTheme\docs\javascript\card-widget.md" />
+    <Content Include="AdminTheme\docs\javascript\control-sidebar.md" />
+    <Content Include="AdminTheme\docs\javascript\direct-chat.md" />
+    <Content Include="AdminTheme\docs\javascript\layout.md" />
+    <Content Include="AdminTheme\docs\javascript\push-menu.md" />
+    <Content Include="AdminTheme\docs\javascript\toasts.md" />
+    <Content Include="AdminTheme\docs\javascript\todo-list.md" />
+    <Content Include="AdminTheme\docs\javascript\treeview.md" />
+    <Content Include="AdminTheme\docs\layout.md" />
+    <Content Include="AdminTheme\docs\license.md" />
+    <Content Include="AdminTheme\docs\upgrade-guide.md" />
+    <Content Include="AdminTheme\docs\_config.yml" />
+    <Content Include="AdminTheme\LICENSE" />
+    <Content Include="AdminTheme\package-lock.json" />
+    <Content Include="AdminTheme\package.json" />
+    <Content Include="LoginTheme\.DS_Store" />
+    <Content Include="LoginTheme\css\.DS_Store" />
+    <Content Include="LoginTheme\css\bootstrap\.DS_Store" />
+    <Content Include="LoginTheme\css\bootstrap\mixins\.DS_Store" />
+    <Content Include="LoginTheme\fonts\.DS_Store" />
+    <Content Include="LoginTheme\images\.DS_Store" />
+    <Content Include="LoginTheme\js\.DS_Store" />
+    <Content Include="LoginTheme\scss\.DS_Store" />
+    <Content Include="LoginTheme\scss\bootstrap\.DS_Store" />
+    <Content Include="LoginTheme\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\bootstrap.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_deprecate.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_overflow.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_shadows.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_stretched-link.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\vendor\_rfs.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_alert.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_badge.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_button-group.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_buttons.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_card.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_carousel.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_close.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_code.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_dropdown.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_forms.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_functions.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_grid.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_images.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_input-group.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_list-group.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_media.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_mixins.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_modal.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_nav.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_navbar.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_pagination.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_popover.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_print.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_progress.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_reboot.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_root.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_spinners.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_tables.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_toasts.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_tooltip.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_transitions.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_type.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_utilities.scss" />
+    <Content Include="LoginTheme\scss\bootstrap\_variables.scss" />
+    <Content Include="LoginTheme\scss\style.scss" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.js.map" />
+    <Content Include="AdminTheme\plugins\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-solid-900.woff" />
+    <Content Include="AdminTheme\plugins\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <Content Include="AdminTheme\plugins\jquery\jquery.min.map" />
+    <Content Include="AdminTheme\plugins\jquery\jquery.slim.min.map" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Blog\BlogList.cshtml" />
+    <Content Include="Views\Blog\RecentPosts.cshtml" />
+    <Content Include="Views\About\Footer.cshtml" />
+    <Content Include="Views\Blog\BlogDetails.cshtml" />
+    <Content Include="Views\Blog\BlogCover.cshtml" />
+    <Content Include="Views\Blog\BlogReadAll.cshtml" />
+    <Content Include="Views\Comment\CommentList.cshtml" />
+    <Content Include="Views\Comment\LeaveComment.cshtml" />
+    <Content Include="Views\Author\AuthorAbout.cshtml" />
+    <Content Include="Views\Author\AuthorPopularPost.cshtml" />
+    <Content Include="Views\Category\BlogDetailsCategoryList.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Blog\BlogByCategory.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Blog\AddNewBlog.cshtml" />
+    <Content Include="Views\Blog\UpdateBlog.cshtml" />
+    <Content Include="Views\Blog\GetCommentByBlog.cshtml" />
+    <Content Include="Views\Author\AuthorList.cshtml" />
+    <Content Include="Views\Author\AddAuthor.cshtml" />
+    <Content Include="Views\Author\EditAuthor.cshtml" />
+    <Content Include="Views\Comment\AdminCommentListTrue.cshtml" />
+    <Content Include="Views\Comment\AdminCommentListFalse.cshtml" />
+    <Content Include="Views\Category\AdminCategoryList.cshtml" />
+    <Content Include="Views\Blog\BlogListAdmin.cshtml" />
+    <Content Include="Views\Contact\Inbox.cshtml" />
+    <Content Include="Views\Contact\MessageDetails.cshtml" />
+    <Content Include="Views\Shared\_AuthorLayout.cshtml" />
+    <Content Include="Views\Login\AuthorLogin.cshtml" />
+    <Content Include="Views\AuthorPanel\AuthorEdit.cshtml" />
+    <Content Include="Views\AuthorPanel\AuthorBlogList.cshtml" />
+    <Content Include="Views\AuthorPanel\UpdateBlog.cshtml" />
+    <Content Include="Views\AuthorPanel\AddNewBlog.cshtml" />
+    <Content Include="Views\AuthorPanel\Index.cshtml" />
+    <Content Include="Views\Login\AdminLogin.cshtml" />
+    <Content Include="Views\Author\AuthorBlogList.cshtml" />
+    <Content Include="Views\Category\EditCategory.cshtml" />
+    <Content Include="Views\AuthorPanel\GetCommentByBlog.cshtml" />
+    <Content Include="Views\Contact\Trash.cshtml" />
+    <Content Include="Views\Contact\Address.cshtml" />
+    <Content Include="Views\Error\Page403.cshtml" />
+    <Content Include="Views\Error\Page404.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\About\MeetTheTeam.cshtml" />
+    <Content Include="Views\About\UpdateAboutList.cshtml" />
+    <Content Include="Views\Subscribe\AddMail.cshtml" />
+    <Content Include="Views\Subscribe\AddMailAbout.cshtml" />
+    <Content Include="Views\Subscribe\SubscribeList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{dfb58ef8-a876-4598-bfe4-7347eae29526}</Project>
+      <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{9d308f38-a11c-472d-bd8d-47b6cb8242b0}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+      <Project>{2096d42c-6186-41ed-ae87-7036c2ae735c}</Project>
+      <Name>EntityLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64573</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44332/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

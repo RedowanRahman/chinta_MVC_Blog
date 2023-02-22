@@ -1,0 +1,75 @@
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\EntityLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityLayer.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

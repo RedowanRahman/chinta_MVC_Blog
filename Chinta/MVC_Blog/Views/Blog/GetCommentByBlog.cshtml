@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Comment>
+
+@{ ViewBag.Title = "GetCommentByBlog";
+                Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+<br />
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header p-1">
+                        <h5 style="color :red">Comments</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-pane" id="timeline">
+                            <div class="timeline timeline-inverse">
+                                @foreach (var x in Model)
+                                {
+                                    <div class="time-label">
+                                        <span class="bg-cyan">
+                                            @(((DateTime)x.CommentDate).ToString("dd-MM-yyyy"))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-comments bg-warning"></i>
+                                        <div class="timeline-item">
+                                            <span class="time">@x.Mail</span>
+                                            <h3 class="timeline-header"><a href="#">@x.NameSurname</a></h3>
+                                            <div class="timeline-body">
+                                                @x.CommentText
+                                            </div>
+                                            <div class="timeline-footer">
+                                                <a href="/Comment/DeleteComment/@x.CommentID" class="btn btn-danger btn-flat btn-sm">
+                                                    <i class="fas fa-trash"></i>
+                                                    Delete
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+

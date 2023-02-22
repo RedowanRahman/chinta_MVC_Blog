@@ -1,0 +1,176 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Category>
+@{ string color = "";}
+@{ ViewBag.Title = "AdminCategoryList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.min.css" integrity="sha512-cyIcYOviYhF0bHIhzXWJQ/7xnaBuIIOecYoPZBgJHQKFPo+TOBA+BY1EnTpmM8yKDU4ZdI3UGccNGCEUdfbBqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.all.min.js" integrity="sha512-IZ95TbsPTDl3eT5GwqTJH/14xZ2feLEGJRbII6bRKtE/HC6x3N4cHye7yyikadgAsuiddCY2+6gMntpVHL1gHw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<br />
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title" style="color :red">Category List</h3>
+
+            </div>
+            <div class="card-body p-0 responsive">
+                <table class="table table-striped projects table-responsive-sm table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th>
+                                ID
+                            </th>
+                            <th>
+                                Category Name
+                            </th>
+
+
+                            <th class="text-center">
+                                Status
+                            </th>
+                            <th class="text-center">
+                                Blogs
+                            </th>
+                            <th>
+                                Edit
+                            </th>
+                            <th>
+                                Active
+                            </th>
+                            <th>
+                                Inactive
+                            </th>
+                            <th>
+                                Delete
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model)
+                        {
+                            if (x.CategoryStatus == true)
+                            {
+                                color = "badge badge-success";
+                            }
+                            if (x.CategoryStatus == false)
+                            {
+                                color = "badge badge-danger";
+                            }
+            <tr>
+                <td>@x.CategoryID</td>
+                <td>
+                    <a>@x.CategoryName</a>
+                </td>
+
+
+                <td class="project-state">
+                    <span class="@color">@x.CategoryStatus</span>
+                </td>
+                <td class="project-actions text-center">
+                    <a class="btn btn-primary btn-sm" href="/Blog/BlogByCategory/@x.CategoryID">
+                        <i class="fas fa-solid fa-blog"></i>
+                        Blogs
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="/Category/EditCategory/@x.CategoryID">
+                        <i class="fas fa-pencil-alt"></i>
+                        Edit
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-warning btn-sm" href="/Category/CategoryActive/@x.CategoryID">
+                        <i class="fas fa-solid fa-upload"></i>
+                        Active
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-dark btn-sm" href="/Category/CategoryInactive/@x.CategoryID">
+                        <i class="fas fa-solid fa-ban"></i>
+                        Inactive
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger btn-sm delete" href="/Category/DeleteCategory/@x.CategoryID">
+                        <i class="fas fa-trash"></i>
+                        Delete
+                    </a>
+                </td>
+            </tr>
+}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">Add New Category</button>
+    <div class="modal fade" id="Modal1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 style="color:red" class="modal-title">Add New Category</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form method="post" action="/Category/AddNewCategory/">
+                    <div class="modal-body">
+                        <label>Category Name</label>
+                        <input type="text" name="CategoryName" class="form-control" />
+                        <br />
+                        <label>Category Description</label>
+                        <input type="text" name="Category Description" class="form-control" />
+                        <br />
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-info">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.delete').on('click', function (e) {
+        e.preventDefault();
+        var self = $(this);
+        console.log(self.data('title'));
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: true
+        })
+        swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            confirmButtonColor: "#558B2F",
+            cancelButtonColor: "#C62828",
+            reverseButtons: false
+        }).then((result) => {
+            if (result.isConfirmed) {
+                swalWithBootstrapButtons.fire(
+                    'Deleted!',
+                    'Your blog has been deleted.',
+                    'success'
+                )
+                location.href = self.attr('href');
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                    'Cancelled',
+                    'Your blog is safe :)',
+                    'error'
+                )
+            }
+        })
+    })</script>

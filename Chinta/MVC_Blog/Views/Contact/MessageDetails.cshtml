@@ -1,0 +1,70 @@
+﻿@model EntityLayer.Concrete.Contact
+
+@{
+    ViewBag.Title = "MessageDetails";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<body class="hold-transition sidebar-mini">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-3">
+                <a style="color:white" class="btn btn-primary btn-block mb-3">Message Details</a>
+                <div class="card">
+
+                    <div class="card-body p-0">
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                                <a href="/Contact/Inbox/" class="nav-link">
+                                    <i class="fas fa-inbox"></i> Inbox
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Contact/Trash/" class="nav-link">
+                                    <i class="far fa-trash-alt"></i> Trash
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Subscribe/SubscribeList/" class="nav-link">
+                                    <i class="fas fa-solid fa-envelope"></i> Subscribed Emails
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-primary card-outline">
+                    <div class="card-header">
+                        <h3 class="card-title"><b>@Model.Subject</b></h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="mailbox-read-info">
+                            <h6>
+                                <i>From: </i><b>@Html.DisplayFor(x => x.Mail)</b>
+                                <span class="mailbox-read-time float-right">@(((DateTime)Model.MessageDate).ToString("dd-MM-yyyy"))</span>
+                            </h6>
+                        </div>
+
+                        <div class="mailbox-read-message">
+                            <p>@Model.Message</p>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <b>@Model.Name @Model.Surname</b>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</body>

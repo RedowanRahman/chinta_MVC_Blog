@@ -1,0 +1,62 @@
+﻿@model IEnumerable<EntityLayer.Concrete.About>
+@{ ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('/BlogTheme/images/aboutus.png');">
+    <div class="container">
+        <div class="row same-height justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="post-entry text-center">
+                    <h1 class="">About Us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            @foreach (var x in Model)
+            {
+                
+                <div class="col-md-6 order-md-2">
+                    <img src="@x.AboutImage1" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-md-5 mr-auto order-md-1">
+                    <h2>How This Website Made?</h2>                           
+                    <p>@x.AboutContent1</p>
+                    <ul class="ul-check list-unstyled success">
+                        <li>Asp.Net MVC5</li>
+                        <li>Entity Framework - Code First</li>
+                        <li>Layered Architecture</li>
+                    </ul>
+                 </div>
+            }
+        </div>
+    </div>
+</div>
+@Html.Action("MeetTheTeam", "About")
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            @foreach (var x in Model)
+            {
+                <div class="col-md-6">
+                    <img src="@x.AboutImage2" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-md-5 ml-auto">
+                    <h2>What Is Our  Purpose?</h2>
+
+                    <p class="mb-4">@x.AboutContent2</p>
+                    <ul class="ul-check list-unstyled success">
+                        <li>Technology</li>
+                        <li>Programming</li>
+                        <li>Film&Series</li>
+                        <li>Travel</li>
+                    </ul>
+                </div>            
+            }
+        </div>
+    </div>
+</div>
+@*@Html.Action("AddMailAbout", "Subscribe")*@
+@Html.Action("Footer", "About")

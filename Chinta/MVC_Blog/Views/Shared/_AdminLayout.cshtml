@@ -1,0 +1,75 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/AdminTheme/css/css.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Panel</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/AdminTheme/plugins/fontawesome-free/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="/AdminTheme/dist/css/adminlte.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body>
+
+    <div class="topnav fixed-top" id="myTopnav">
+        <a href="/Blog/Index/">Chinta Website</a>
+        <a href="/Blog/BlogListAdmin/">Blogs</a>
+        <a href="/Author/AuthorList/">Authors</a>
+        <a href="/Comment/AdminCommentListTrue/">Comments</a>
+        <a href="/Category/AdminCategoryList/">Categories</a>
+        @*<a href="/About/UpdateAboutList/">About</a>
+        <a href="/Contact/Inbox/">Contact</a>*@
+        <a  href="/Login/Logout">Logout</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="container" style="margin-top : 40px">
+        @RenderBody()
+    </div>
+    <script defer>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        function logout() {
+            history.replaceState(null, null, '/Login/Logout')
+                
+            
+        }
+    </script>
+   
+    <script src="/AdminTheme/plugins/jquery/jquery.min.js"></script>
+    
+    <script src="/AdminTheme/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="/AdminTheme/dist/js/adminlte.min.js"></script>
+    
+    <script src="/AdminTheme/dist/js/demo.js"></script>
+
+ @section scripts  { 
+     <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("prevent()", 0);
+        window.onunload = function () { null };
+    </script>
+}
+</body>
+</html>

@@ -1,0 +1,147 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Blog>
+@{
+    ViewBag.Title = "AuthorBlogList";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.min.css" integrity="sha512-cyIcYOviYhF0bHIhzXWJQ/7xnaBuIIOecYoPZBgJHQKFPo+TOBA+BY1EnTpmM8yKDU4ZdI3UGccNGCEUdfbBqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.all.min.js" integrity="sha512-IZ95TbsPTDl3eT5GwqTJH/14xZ2feLEGJRbII6bRKtE/HC6x3N4cHye7yyikadgAsuiddCY2+6gMntpVHL1gHw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<br />
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title" style="color :red">My Blogs</h3>
+                <div class="card-tools">
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-striped projects table-responsive-sm table-responsive-md table-responsive-lg">
+                    <thead>
+                        <tr>
+                            <th style="width: 1%">
+                                ID
+                            </th>
+                            <th style="width: 10%">
+                                Title
+                            </th>
+                            <th style="width: 10%">
+                                Author
+                            </th>
+                            <th style="width: 8%" class="text-center">
+                                Category
+                            </th>
+                            <th style="width: 5%">
+                                Edit
+                            </th>
+                            <th style="width: 5%">
+                                Delete
+                            </th>
+                            <th style="width: 5%">
+                                Comment
+                            </th>
+                            <th style="width: 5%">
+                                Details
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model)
+                        {
+                            <tr>
+                                <td>@x.BlogID</td>
+                                <td>
+                                    <a>@x.BlogTitle</a>
+                                </td>
+                                <td>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <img alt="Avatar" class="table-avatar" src="@x.Author.AuthorImage">
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="project-state">
+                                    <span class="badge badge-dark">@x.Category.CategoryName</span>
+                                </td>
+                                <td>
+                                    <a class="btn btn-info btn-sm" href="/AuthorPanel/UpdateBlog/@x.BlogID">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        Edit
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger btn-sm delete" href="/AuthorPanel/AuthorDeleteBlog/@x.BlogID">
+                                        <i class="fas fa-trash"></i>
+                                        Delete
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="/AuthorPanel/GetCommentByBlog/@x.BlogID">
+                                        <i class="fas fa-solid fa-comment"></i>
+                                        Comments
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="/Blog/BlogDetails/@x.BlogID" class="btn btn-success btn-sm">
+                                        <i class="fas fa-solid fa-info"></i>
+                                        Details
+                                    </a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+
+<a href="/AuthorPanel/AddNewBlog/" class="btn btn-primary">Add New Blog</a>
+<br />
+<br />
+<script>
+    $('.delete').on('click', function (e) {
+        e.preventDefault();
+        var self = $(this);
+        console.log(self.data('title'));
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success', 
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: true
+        })
+        swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            confirmButtonColor: "#558B2F",
+            cancelButtonColor: "#C62828",
+            reverseButtons: false
+        }).then((result) => {
+            if (result.isConfirmed) {
+                swalWithBootstrapButtons.fire(
+                    'Deleted!',
+                    'Your blog has been deleted.',
+                    'success'
+                )
+                location.href = self.attr('href');
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                    'Cancelled',
+                    'Your blog is safe :)',
+                    'error'
+                )
+            }
+        })
+    })
+</script>

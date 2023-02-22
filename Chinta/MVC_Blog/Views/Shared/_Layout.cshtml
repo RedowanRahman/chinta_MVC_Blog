@@ -1,0 +1,115 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chinta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700|Playfair+Display:400,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/BlogTheme/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/BlogTheme/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="~/BlogTheme/css/aos.css">
+
+    <link rel="stylesheet" href="~/BlogTheme/css/style.css">
+</head>
+<body>
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <header class="site-navbar" role="banner">
+            <div class="container-fluid fixed-top bg-dark">
+                <div class="row align-items-center">
+
+                    <div class="col-12 search-form-wrap js-search-form">
+                        <form method="get" action="#">
+                            <input type="text" id="s" class="form-control" placeholder="Search...">
+                            <button class="search-btn" type="submit"><span class="icon-search"></span></button>
+                        </form>
+                    </div>
+
+                    <div class="col-4 site-logo">
+                        <a href="/Blog/Index/" class="text-white h2 mb-0 responsive">  Chinta</a>
+                    </div>
+
+                    <div class="col-8 text-right">
+                        <nav class="site-navigation" role="navigation">
+                            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block mb-0">
+                                <li><a href="/Blog/Index/" class="text-white">Home</a></li>
+
+                                <li><a href="/Blog/BlogByCategory/1/" class="text-white">Programming</a></li>
+                                <li><a href="/Blog/BlogByCategory/2/" class="text-white">Travelling</a></li>
+                                <li><a href="/Blog/BlogByCategory/3/" class="text-white">Technology</a></li>
+                                <li><a href="/Blog/BlogByCategory/4/" class="text-white">Emotion</a></li>
+                                <li><a href="/Blog/BlogByCategory/5/" class="text-white">Science Fiction</a></li>
+                                <li><a href="/Blog/BlogByCategory/6/" class="text-white">Film & Series</a></li>
+
+                                <li><a href="/About/Index/" class="text-white">About</a></li>
+                                @*<li><a href="/Contact/Index/" class="text-white">Contact</a></li>*@
+                                <li class="d-none d-lg-inline-block"><a href="#" class="js-search-toggle text-white"><span class="icon-search"></span></a></li>
+                            </ul>
+                        </nav>
+                        <a href="#" class="site-menu-toggle js-menu-toggle text-black d-inline-block d-lg-none"><span class="icon-menu h3"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div style="margin-top: 32px">
+            @RenderBody()
+        </div>
+
+        
+    </div>
+
+    <script src="~/BlogTheme/js/jquery-3.3.1.min.js"></script>
+    <script src="~/BlogTheme/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/BlogTheme/js/jquery-ui.js"></script>
+    <script src="~/BlogTheme/js/popper.min.js"></script>
+    <script src="~/BlogTheme/js/bootstrap.min.js"></script>
+    <script src="~/BlogTheme/js/owl.carousel.min.js"></script>
+    <script src="~/BlogTheme/js/jquery.stellar.min.js"></script>
+    <script src="~/BlogTheme/js/jquery.countdown.min.js"></script>
+    <script src="~/BlogTheme/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/BlogTheme/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/BlogTheme/js/aos.js"></script>
+    <script src="~/BlogTheme/js/main.js"></script>
+
+    <script>
+        const navEL = document.querySelector('.nav');
+
+        window.addEventListener('scroll', () => {
+
+            if (window.scrollY >= 56) {
+                navEL.classList.add('navbar-scrolled');
+            }
+            else if (window.scrollY < 56) {
+                navEL.classList.remove('navbar-scrolled');
+            }
+
+        });
+    </script>
+
+
+</body>
+</html>

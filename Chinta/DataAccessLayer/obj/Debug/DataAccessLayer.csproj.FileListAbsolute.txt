@@ -1,0 +1,133 @@
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig2.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig3.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig9.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig10.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig12.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig13.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig14.resources
+C:\Users\Mehmetali Demirtaş\source\repos\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig15.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig2.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig3.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig9.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig10.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig12.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig13.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig14.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig15.resources
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig2.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig3.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig9.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig10.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig12.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig13.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig14.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig15.resources
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig2.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig3.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig9.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig10.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig12.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig13.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig14.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig15.resources
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_16.resources

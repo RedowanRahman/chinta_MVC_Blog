@@ -1,0 +1,426 @@
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\MVC_Blog.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\MVC_Blog.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\MVC_Blog.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\csc.exe
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\csc.exe.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\csc.rsp
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\csi.exe
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\csi.exe.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\csi.rsp
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.AppContext.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Console.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Net.Http.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\vbc.exe
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\vbc.exe.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\vbc.rsp
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Antlr3.Runtime.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\BusinessLogicLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\DataAccessLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityFramework.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityFramework.SqlServer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityLayer.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Newtonsoft.Json.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Helpers.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Mvc.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Optimization.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Razor.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.WebPages.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\WebGrease.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\BusinessLogicLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\DataAccessLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\DataAccessLayer.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityLayer.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityLayer.dll.config
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityFramework.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\EntityFramework.SqlServer.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Helpers.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Mvc.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Optimization.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.Razor.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.WebPages.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Newtonsoft.Json.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Antlr3.Runtime.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\obj\Debug\MVC_Blog.csproj.AssemblyReference.cache
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\obj\Debug\MVC_Blog.csproj.CoreCompileInputs.cache
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\obj\Debug\MVC_Blog.csproj.CopyComplete
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\obj\Debug\MVC_Blog.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\obj\Debug\MVC_Blog.pdb
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\PagedList.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\PagedList.Mvc.dll
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\PagedList.xml
+C:\Users\Mehmetali Demirtaş\source\repos\MVC_Blog\bin\PagedList.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\MVC_Blog.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\MVC_Blog.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\MVC_Blog.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Antlr3.Runtime.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.SqlServer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Microsoft.Web.Infrastructure.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Newtonsoft.Json.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.Mvc.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Helpers.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Mvc.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Optimization.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Razor.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Deployment.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Razor.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\WebGrease.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.SqlServer.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Helpers.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Optimization.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Razor.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Deployment.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Razor.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Newtonsoft.Json.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Antlr3.Runtime.pdb
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.dll
+E:\AUST\CSE 3.2\CSE 3200\C Projects\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\MVC_Blog.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\MVC_Blog.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\MVC_Blog.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\csc.exe
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\csc.exe.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\csc.rsp
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\csi.exe
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\csi.exe.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\csi.rsp
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.Managed.Core.targets
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.AppContext.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Collections.Immutable.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Console.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Globalization.Calendars.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.IO.Compression.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.IO.FileSystem.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Net.Http.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Net.Sockets.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Reflection.Metadata.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.ValueTuple.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Xml.XmlDocument.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Xml.XPath.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\vbc.exe
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\vbc.exe.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\vbc.rsp
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\VBCSCompiler.exe
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\roslyn\VBCSCompiler.exe.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Antlr3.Runtime.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\BusinessLogicLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\DataAccessLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.SqlServer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityLayer.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Microsoft.Web.Infrastructure.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Newtonsoft.Json.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.Mvc.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Helpers.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Mvc.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Optimization.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Razor.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Deployment.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Razor.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\WebGrease.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\BusinessLogicLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\DataAccessLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\DataAccessLayer.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityLayer.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityLayer.dll.config
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\EntityFramework.SqlServer.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\PagedList.Mvc.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Helpers.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Mvc.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Optimization.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.Razor.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Deployment.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\System.Web.WebPages.Razor.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Newtonsoft.Json.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Antlr3.Runtime.pdb
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.csproj.AssemblyReference.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.csproj.CoreCompileInputs.cache
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.csproj.CopyComplete
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.dll
+E:\A-Blog-Website-with-Layered-Architecture-main\A-Blog-Website-with-Layered-Architecture-main\MVC_Blog\obj\Debug\MVC_Blog.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\obj\Debug\MVC_Blog.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\obj\Debug\MVC_Blog.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\MVC_Blog.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\MVC_Blog.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\MVC_Blog.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\csc.exe
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\csc.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\csc.rsp
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\csi.exe
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\csi.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\csi.rsp
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.Managed.Core.targets
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.AppContext.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Collections.Immutable.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Console.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Globalization.Calendars.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.IO.Compression.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.IO.FileSystem.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Net.Http.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Net.Sockets.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Reflection.Metadata.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.ValueTuple.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Xml.XmlDocument.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Xml.XPath.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\vbc.exe
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\vbc.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\vbc.rsp
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\VBCSCompiler.exe
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\roslyn\VBCSCompiler.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Antlr3.Runtime.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityFramework.SqlServer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Microsoft.Web.Infrastructure.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Newtonsoft.Json.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\PagedList.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\PagedList.Mvc.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Helpers.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Mvc.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Optimization.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Razor.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.WebPages.Deployment.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.WebPages.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.WebPages.Razor.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\WebGrease.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\EntityFramework.SqlServer.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\PagedList.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\PagedList.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Helpers.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Optimization.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.Razor.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.WebPages.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.WebPages.Deployment.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\System.Web.WebPages.Razor.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Newtonsoft.Json.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Antlr3.Runtime.pdb
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\obj\Debug\MVC_Blog.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\obj\Debug\MVC_Blog.dll
+E:\AUST\CSE 3.2\CSE 3200\Main Project\Chinta\MVC_Blog\obj\Debug\MVC_Blog.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\MVC_Blog.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\MVC_Blog.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\MVC_Blog.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\csc.exe
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\csc.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\csc.rsp
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\csi.exe
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\csi.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\csi.rsp
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.Managed.Core.targets
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.AppContext.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Collections.Immutable.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Console.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Globalization.Calendars.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.IO.Compression.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.IO.FileSystem.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Net.Http.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Net.Sockets.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Reflection.Metadata.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.ValueTuple.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Xml.XmlDocument.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Xml.XPath.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\vbc.exe
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\vbc.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\vbc.rsp
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\VBCSCompiler.exe
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\roslyn\VBCSCompiler.exe.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Antlr3.Runtime.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\BusinessLogicLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\DataAccessLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityFramework.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityFramework.SqlServer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityLayer.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Microsoft.Web.Infrastructure.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Newtonsoft.Json.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\PagedList.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\PagedList.Mvc.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Helpers.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Mvc.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Optimization.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Razor.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.WebPages.Deployment.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.WebPages.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.WebPages.Razor.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\WebGrease.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\BusinessLogicLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\DataAccessLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\DataAccessLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityLayer.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityLayer.dll.config
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityFramework.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\EntityFramework.SqlServer.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\PagedList.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\PagedList.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Helpers.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Mvc.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Optimization.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.Razor.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.WebPages.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.WebPages.Deployment.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\System.Web.WebPages.Razor.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Newtonsoft.Json.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Antlr3.Runtime.pdb
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\obj\Debug\MVC_Blog.csproj.AssemblyReference.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\obj\Debug\MVC_Blog.csproj.CoreCompileInputs.cache
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\obj\Debug\MVC_Blog.csproj.CopyComplete
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\obj\Debug\MVC_Blog.dll
+E:\AUST\CSE 3.2\CSE 3200\Chinta\MVC_Blog\obj\Debug\MVC_Blog.pdb

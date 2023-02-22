@@ -1,0 +1,68 @@
+﻿@model IEnumerable<EntityLayer.Concrete.About>
+
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-warning">
+                    <div class="card-header">
+                        <h3 class="card-title" style="color :red">Update About</h3>
+                    </div>
+                    @using (Html.BeginForm("UpdateAbout","About",FormMethod.Post))
+                    {
+                    <div class="card-body">
+                        @foreach (var x in Model)
+                        {
+                            <div class="form-group">
+                            <label for="AboutImage1">ID</label>
+                            <input type="text" name="AboutID" class="form-control" value="@x.AboutID">
+                        </div>
+                        <div class="form-group">
+                            <label for="AboutImage1">Image 1</label>
+                            <input type="text" name="AboutImage1" class="form-control" value="@x.AboutImage1">
+                        </div>
+                        <div class="form-group">
+                            <label for="AboutImage1">Image 2</label>
+                            <input type="text" name="AboutImage2" class="form-control" value="@x.AboutImage2">
+                        </div>
+                        <div class="form-group">
+                            <label for="AboutImage1">Linkedin</label>
+                            <input type="text" name="LinkedinLink" class="form-control" value="@x.LinkedinLink">
+                        </div>
+                        <div class="form-group">
+                            <label for="AboutImage1">Twitter</label>
+                            <input type="text" name="TwitterLink" class="form-control" value="@x.TwitterLink">
+                        </div>
+                        <div class="form-group">
+                            <label for="AboutImage1">Github</label>
+                            <input type="text" name="GithubLink" class="form-control" value="@x.GithubLink">
+                        </div>
+                        <div class="form-group">
+                            <label for="AboutImage1">Website</label>
+                            <input type="text" name="WebsiteLink" class="form-control" value="@x.WebsiteLink">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDescription">Content 1</label>
+                            <textarea name="AboutContent1" class="form-control" rows="4">@x.AboutContent1</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDescription">Content 2</label>
+                            <textarea name="AboutContent2" class="form-control" rows="4">@x.AboutContent2</textarea>
+                        </div>
+                        }
+                        <button class="btn btn-success">Update</button>
+</div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+

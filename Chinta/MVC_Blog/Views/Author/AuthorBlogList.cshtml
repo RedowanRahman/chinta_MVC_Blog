@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "AuthorBlogList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title" style="color :red">Blogs</h3>
+                <div class="card-tools">
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-striped projects table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th style="width: 1%">
+                                ID
+                            </th>
+                            <th style="width: 10%">
+                                Title
+                            </th>
+                            <th style="width: 10%">
+                                Author
+                            </th>
+                            <th style="width: 15%">
+                                Rate
+                            </th>
+                            <th style="width: 8%" class="text-center">
+                                Category
+                            </th>
+                            <th style="width: 5%">
+                                Edit
+                            </th>
+                            <th style="width: 5%">
+                                Delete
+                            </th>
+                            <th style="width: 5%">
+                                Comment
+                            </th>
+                            <th style="width: 5%">
+                                Details
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model)
+                        {
+                            <tr>
+                                <td>@x.BlogID</td>
+                                <td>
+                                    <a>@x.BlogTitle</a>
+                                </td>
+                                <td>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <img alt="Avatar" class="table-avatar" src="@x.Author.AuthorImage">
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="project_progress">
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar bg-green" role="progressbar" aria-volumenow="57" aria-volumemin="0" aria-volumemax="100" style="width: 57%">
+                                        </div>
+                                    </div>
+                                    <small>57% Complete</small>
+                                </td>
+                                <td class="project-state">
+                                    <span class="badge badge-dark">@x.Category.CategoryName</span>
+                                </td>
+                                <td>
+                                    <a class="btn btn-info btn-sm" href="/AuthorPanel/UpdateBlog/@x.BlogID">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        Edit
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger btn-sm" href="/Blog/DeleteBlog/@x.BlogID">
+                                        <i class="fas fa-trash"></i>
+                                        Delete
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="/Blog/GetCommentByBlog/@x.BlogID">
+                                        <i class="fas fa-solid fa-comment"></i>
+                                        Comments
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="/Blog/BlogDetails/@x.BlogID" class="btn btn-success btn-sm">
+                                        <i class="fas fa-solid fa-info"></i>
+                                        Details
+                                    </a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+
+@*<a href="/Blog/AddNewBlog/" class="btn btn-primary">Add New Blog</a>*@
+<br />
+<br />
